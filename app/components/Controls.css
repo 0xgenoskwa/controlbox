@@ -1,0 +1,32 @@
+.btnGroup {
+  position: relative;
+  margin: 0 auto;
+}
+
+.tbl {
+  width: 100%;
+}
+
+.btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+  opacity: 0.7;
+  cursor: pointer;
+  font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+}
+
+.btn:first-child {
+  margin-top: 20px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
